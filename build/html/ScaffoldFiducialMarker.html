@@ -1,0 +1,393 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Scaffold and Fiducial Marker &mdash; MAPcore Datathon 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="MAPcore Datathon Documentation" href="index.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> MAPcore Datathon
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Scaffold and Fiducial Marker</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#controls">Controls</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#left-controls">Left Controls</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#interactive-graphics-controls">Interactive Graphics Controls</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#right-controls">Right Controls</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#working-with-the-physiome-model-repository">Working with the Physiome Model Repository</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#read-control">Read Control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#commit-control">Commit Control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#push-control">Push Control</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-the-fiducial-points">Creating the Fiducial points</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MAPcore Datathon</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Scaffold and Fiducial Marker</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/ScaffoldFiducialMarker.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="scaffold-and-fiducial-marker">
+<h1>Scaffold and Fiducial Marker<a class="headerlink" href="#scaffold-and-fiducial-marker" title="Permalink to this headline">¶</a></h1>
+<div class="contents local topic" id="contents">
+<p class="topic-title first">Contents:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#overview" id="id4">Overview</a></li>
+<li><a class="reference internal" href="#controls" id="id5">Controls</a><ul>
+<li><a class="reference internal" href="#left-controls" id="id6">Left Controls</a></li>
+<li><a class="reference internal" href="#interactive-graphics-controls" id="id7">Interactive Graphics Controls</a></li>
+<li><a class="reference internal" href="#right-controls" id="id8">Right Controls</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#working-with-the-physiome-model-repository" id="id9">Working with the Physiome Model Repository</a><ul>
+<li><a class="reference internal" href="#read-control" id="id10">Read Control</a></li>
+<li><a class="reference internal" href="#commit-control" id="id11">Commit Control</a></li>
+<li><a class="reference internal" href="#push-control" id="id12">Push Control</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#creating-the-fiducial-points" id="id13">Creating the Fiducial points</a></li>
+</ul>
+</div>
+<div class="section" id="overview">
+<h2><a class="toc-backref" href="#contents">Overview</a><a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>This document describes how to use the ‘Scaffold and Fiducial Marker’ module of the MAPcore Datathon portal. The demonstration for this module is available at <a class="reference external" href="https://mapcore-demo.org/2018-datathon/portal/scaffold/">https://mapcore-demo.org/2018-datathon/portal/scaffold/</a>.</p>
+</div>
+<div class="section" id="controls">
+<h2><a class="toc-backref" href="#contents">Controls</a><a class="headerlink" href="#controls" title="Permalink to this headline">¶</a></h2>
+<p>This section explains the <em>Left</em>, <em>right</em> and the <em>interactive graphics</em> controls.</p>
+<div class="section" id="left-controls">
+<h3><a class="toc-backref" href="#contents">Left Controls</a><a class="headerlink" href="#left-controls" title="Permalink to this headline">¶</a></h3>
+<p>The <span class="guilabel">Open Controls</span> button at the top-left corner of the MAPcore Datathon portal elaborates different controls which helps to pinpoint any modifications made in the organ.</p>
+<p>Functionality of different <em>controls</em>:</p>
+<ul class="simple">
+<li><strong>View All</strong> - this control helps the organ to return to the original state from the enlarged position.</li>
+<li><strong>Read</strong> - provides an option to use the existing Physiome Model Repository(PMR) workspace.</li>
+<li><strong>Commit</strong> - helps to save the changes locally.</li>
+<li><strong>Push</strong> - helps to save the changes on the Physiome Model Repository(PMR).</li>
+<li><strong>Mesh Types</strong> - displays various kinds of organs/shapes but presently only heart related options are functional. The default organ which is showcased is “3d_heart1”.</li>
+<li><strong>Parameters</strong> - these are the numerical values which defines the various attributes of the organs/shapes. The values has been preset to provide a basic configuration of the organ.</li>
+<li><strong>Regions</strong> - helps viewing the varied parts of the organ/shape. Currently, this functionality works only for the heart. Hovering over the different regions highlights the particular selected area of the organ.</li>
+</ul>
+<p>The <span class="guilabel">Close Controls</span> button closes the expanded controls panel.</p>
+</div>
+<div class="section" id="interactive-graphics-controls">
+<h3><a class="toc-backref" href="#contents">Interactive Graphics Controls</a><a class="headerlink" href="#interactive-graphics-controls" title="Permalink to this headline">¶</a></h3>
+<p>The table below describes the effect of different mouse buttons in manipulating the view:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="55%" />
+<col width="45%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Mouse Button</th>
+<th class="head">Transformation</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Left</td>
+<td>Rotate</td>
+</tr>
+<tr class="row-odd"><td>Middle</td>
+<td>Zoom</td>
+</tr>
+<tr class="row-even"><td>Right</td>
+<td>Pan</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="right-controls">
+<h3><a class="toc-backref" href="#contents">Right Controls</a><a class="headerlink" href="#right-controls" title="Permalink to this headline">¶</a></h3>
+<p>On the top-right corner of the MAPcore Datathon portal, you will find another set of controls that supports rotating the ‘cutting plane’ along x-axis or y-axis , intersecting it as well as setting the distance of the cutting plane and so on. Click on the <span class="guilabel">Open Controls</span> button to work with various controls.</p>
+<p>These <em>controls</em> are explained below:</p>
+<ol class="arabic simple">
+<li><strong>Remove cuts</strong> - is used to delete the intersected surface created by the <em>intersect</em> control.</li>
+<li><strong>Distance</strong> - determines the distance of the cutting plane from the center of the organ/shape.</li>
+<li><strong>xRotation</strong> - supports the rotation of the cutting plane along the x-axis.</li>
+<li><strong>yRotation</strong> - supports the rotation of the cutting plane along the y-axis.</li>
+<li><strong>Reverse</strong> - is the control which provides the ability to view the opposite side of the organ from the cutting plane.</li>
+<li><strong>Intersect</strong>- as the name suggest, creates an intersect surface between the organ and the cutting plane.</li>
+</ol>
+<p>The <span class="guilabel">Close Controls</span> button closes the expanded controls panel.</p>
+</div>
+</div>
+<div class="section" id="working-with-the-physiome-model-repository">
+<h2><a class="toc-backref" href="#contents">Working with the Physiome Model Repository</a><a class="headerlink" href="#working-with-the-physiome-model-repository" title="Permalink to this headline">¶</a></h2>
+<p>The ‘Scaffold and Fiducial Marker’ module of the MAPcore Datathon portal supports using the existing Physiome Model Repository(PMR) workspace as well as saving the changes on the PMR. This can be achieved through the three controls (Read,Commit and Push) explained in the <a class="reference internal" href="#left-controls">Left Controls</a> section.</p>
+<div class="section" id="read-control">
+<h3><a class="toc-backref" href="#contents">Read Control</a><a class="headerlink" href="#read-control" title="Permalink to this headline">¶</a></h3>
+<p>This control provides an option to use the existing Physiome Model Repository(PMR) workspace.</p>
+<p>Steps:</p>
+<ol class="arabic simple">
+<li>Click on <em>Open Controls</em> button present on the top left corner of the datathon portal.</li>
+<li>Click on the <strong>Read</strong> control.</li>
+<li>A new window will pop-up, enter the PMR workspace URL (e.g. <a class="reference external" href="https://models.physiomeproject.org/workspace/xx">https://models.physiomeproject.org/workspace/xx</a> where ‘x’ is your workspace id) and click on ‘Confirm’.</li>
+</ol>
+<div class="figure align-center" style="width: 61%">
+<a class="reference internal image-reference" href="_images/read_window1.png"><img alt="_images/read_window1.png" src="_images/read_window1.png" style="width: 51%;" /></a>
+</div>
+<ol class="arabic simple" start="4">
+<li>Enter the file name from your PMR workspace and click on Confirm. For example:</li>
+</ol>
+<div class="figure align-center" style="width: 61%">
+<a class="reference internal image-reference" href="_images/read_window2.png"><img alt="_images/read_window2.png" src="_images/read_window2.png" style="width: 51%;" /></a>
+</div>
+<ol class="arabic simple" start="5">
+<li>A new message is prompted ‘Workspace may be private, please press confirm to identify yourself.’ , click on Confirm.</li>
+</ol>
+<div class="figure align-center" style="width: 71%">
+<a class="reference internal image-reference" href="_images/read_window3.png"><img alt="_images/read_window3.png" src="_images/read_window3.png" style="width: 71%;" /></a>
+</div>
+<ol class="arabic simple" start="6">
+<li>Login to the PMR and click on <em>Grant Access</em> to establish the connection between the datathon portal and the PMR.</li>
+</ol>
+<div class="figure align-center" style="width: 91%">
+<a class="reference internal image-reference" href="_images/read_window4.png"><img alt="_images/read_window4.png" src="_images/read_window4.png" style="width: 81%;" /></a>
+</div>
+<ol class="arabic simple" start="7">
+<li>Copy the verification code from the PMR and enter this code on the datathon portal. Click on Confirm. As an example:</li>
+</ol>
+<div class="figure align-center" id="id1" style="width: 91%">
+<a class="reference internal image-reference" href="_images/read_window5.png"><img alt="_images/read_window5.png" src="_images/read_window5.png" style="width: 81%;" /></a>
+<p class="caption"><span class="caption-text"><strong>PMR portal</strong></span></p>
+</div>
+<div class="figure align-center" id="id2" style="width: 61%">
+<a class="reference internal image-reference" href="_images/read_window6.png"><img alt="_images/read_window6.png" src="_images/read_window6.png" style="width: 51%;" /></a>
+<p class="caption"><span class="caption-text"><strong>Datathon portal</strong></span></p>
+</div>
+</div>
+<div class="section" id="commit-control">
+<h3><a class="toc-backref" href="#contents">Commit Control</a><a class="headerlink" href="#commit-control" title="Permalink to this headline">¶</a></h3>
+<p>The <em>Commit</em> control helps to save the changes locally.</p>
+<p>Steps:</p>
+<ol class="arabic simple">
+<li>Click on <em>Open Controls</em> button present on the top left corner of the datathon portal.</li>
+<li>Click on the <strong>Commit</strong> control.</li>
+<li>A window will pop-up, enter the message mentioning the information about the changes made and click on Confirm.</li>
+<li>This new window displays the success message about the committed changes. Click on Confirm.</li>
+</ol>
+</div>
+<div class="section" id="push-control">
+<h3><a class="toc-backref" href="#contents">Push Control</a><a class="headerlink" href="#push-control" title="Permalink to this headline">¶</a></h3>
+<p>The <em>Push</em> control helps to save the changes on the Physiome Model Repository(PMR).</p>
+<p>Steps:</p>
+<ol class="arabic simple">
+<li>Click on <em>Open Controls</em> button present on the top left corner of the datathon portal.</li>
+<li>Click on the <strong>Push</strong> control.</li>
+<li>A new window appears with a message - “Are you sure you want to push the changes?” , click on Confirm.</li>
+<li>Another message populates confirming the changes being saved on the PMR. Click on Confirm.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The <strong>History</strong> tab on the PMR shows the log of changes made.</p>
+</div>
+</div>
+</div>
+<div class="section" id="creating-the-fiducial-points">
+<h2><a class="toc-backref" href="#contents">Creating the Fiducial points</a><a class="headerlink" href="#creating-the-fiducial-points" title="Permalink to this headline">¶</a></h2>
+<p>Follow the steps below:</p>
+<ol class="arabic simple">
+<li>Click on <em>Open Controls</em> button present on the top right corner of the datathon portal.</li>
+<li>Go to the <strong>distance</strong> control and select the distance of the cutting plane from the center of the organ.</li>
+<li>Click on the <strong>intersect</strong> option.</li>
+<li>Click at the particular location on the intersected surface to create the fiducial point.</li>
+<li>Enter the annotation and click on confirm.</li>
+</ol>
+<div class="figure align-center" id="id3" style="width: 91%">
+<a class="reference internal image-reference" href="_images/creating_fiducial_point.png"><img alt="_images/creating_fiducial_point.png" src="_images/creating_fiducial_point.png" style="width: 91%;" /></a>
+<p class="caption"><span class="caption-text">Created Fiducial Point: FP 1</span></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="MAPcore Datathon Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Sonia Sharma
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
