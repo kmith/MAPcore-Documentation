@@ -19,23 +19,23 @@ This section explains the *Left*, *right* and the *interactive graphics* control
 Left Controls
 ^^^^^^^^^^^^^
 
-The :guilabel:`Open Controls` button at the top-left corner of the MAPcore Datathon portal elaborates different controls which helps to pinpoint any modifications made in the organ.
+The :guilabel:`Open Controls` button at the top-left corner of this demonstration elaborates different controls which help to edit the visualisation and configuration of the anatomical organ scaffold.
 
 Functionality of different *controls*:
 
-* **View All** - this control helps the organ to return to the original state from the enlarged position.
+* **View All** - this control ensures the entire organ scaffold is visible.
 
-* **Read** - provides an option to use the existing Physiome Model Repository(PMR) workspace.
+* **Read** - provides an option to load a scaffold configuration and fiducial landmark locations from the Physiome Model Repository (PMR). See further details below.
 
-* **Commit** - helps to save the changes locally.
+* **Commit** - save any changes to a temporary space.
 
-* **Push** - helps to save the changes on the Physiome Model Repository(PMR).
+* **Push** - save committed changes to PMR.
 
-* **Mesh Types** - displays various kinds of organs/shapes but presently only heart related options are functional. The default organ which is showcased is "3d_heart1".
+* **Mesh Types** - displays various kinds of organs/shapes supported by the underlying scaffolding tools, but presently only the heart related choices are functional. The default organ which is showcased is "3d_heart1".
 
-* **Parameters** - these are the numerical values which defines the various attributes of the organs/shapes. The values has been preset to provide a basic configuration of the organ.
+* **Parameters** - the configuration defining the various attributes of the organ scaffold. The default values have been preset to provide a reasonable configuration of the organ.
 
-* **Regions** - helps viewing the varied parts of the organ/shape. Currently, this functionality works only for the heart. Hovering over the different regions highlights the particular selected area of the organ. 
+* **Regions** - the currently defined anatomical regions of the displayed organ scaffold. Currently, this functionality works only for the heart. Hovering over the different regions highlights the particular selected area of the organ; unchecking the region will cause the region surface to be hidden in the current scaffold visualisation. 
 
 The :guilabel:`Close Controls` button closes the expanded controls panel.
  
@@ -43,7 +43,7 @@ The :guilabel:`Close Controls` button closes the expanded controls panel.
 Interactive Graphics Controls
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The table below describes the effect of different mouse buttons in manipulating the view:
+The table below describes the effect of different mouse buttons in manipulating the view.
 
 ======================= ==============
 Mouse Button            Transformation
@@ -58,16 +58,16 @@ Right 					Pan
 Right Controls
 ^^^^^^^^^^^^^^
  
-On the top-right corner of the MAPcore Datathon portal, you will find another set of controls that supports rotating the 'cutting plane' along x-axis or y-axis , intersecting it as well as setting the distance of the cutting plane and so on. Click on the :guilabel:`Open Controls` button to work with various controls. 
+On the top-right corner of this demonstration you will find another set of controls for controling a cutting plane that can be used to arbitrarily slide the organ scaffold in 3-d space. Click on the :guilabel:`Open Controls` button to work with the various controls if not currently displayed. 
 
-These *controls* are explained below:
+These *controls* are explained below.
 
-#. **Remove cuts** - is used to delete the intersected surface created by the *intersect* control.
-#. **Distance** - determines the distance of the cutting plane from the center of the organ/shape.
+#. **remove cuts** - is used to delete the intersected surface created by the *intersect* control.
+#. **distance** - determines the distance of the cutting plane from the center of the organ/shape.
 #. **xRotation** - supports the rotation of the cutting plane along the x-axis.
 #. **yRotation** - supports the rotation of the cutting plane along the y-axis.
-#. **Reverse** - is the control which provides the ability to view the opposite side of the organ from the cutting plane.
-#. **Intersect**- as the name suggest, creates an intersect surface between the organ and the cutting plane.
+#. **reverse** - is the control which provides the ability to view the opposite side of the organ from the cutting plane.
+#. **intersect**- as the name suggest, creates a surface at the intersection between the organ scaffold and the cutting plane.
 
 
 The :guilabel:`Close Controls` button closes the expanded controls panel.
@@ -75,7 +75,7 @@ The :guilabel:`Close Controls` button closes the expanded controls panel.
 Working with the Physiome Model Repository
 ******************************************
 
-The 'Scaffold and Fiducial Marker' module of the MAPcore Datathon portal supports using the existing Physiome Model Repository(PMR) workspace as well as saving the changes on the PMR. This can be achieved through the three controls (Read,Commit and Push) explained in the `Left Controls`_ section.
+The 'Scaffold and Fiducial Marker' module of the MAPcore Datathon portal supports using an existing Physiome Model Repository (PMR) workspace to load and save changes the user makes to the scaffold configuration and/or fiducial landmarks. This can be achieved through the three controls (Read, Commit and Push) explained in the `Left Controls`_ section.
 
 Read Control
 ^^^^^^^^^^^^
@@ -145,7 +145,7 @@ Steps:
 
 Push Control
 ^^^^^^^^^^^^
-The *Push* control helps to save the changes on the Physiome Model Repository(PMR).
+The *Push* control helps to save the changes on to the PMR workspace.
 
 Steps:
 
@@ -164,8 +164,8 @@ Creating the Fiducial points
 
 Follow the steps below:
 
-#. Click on *Open Controls* button present on the top right corner of the datathon portal.
-#. Go to the **distance** control and select the distance of the cutting plane from the center of the organ.
+1. Click on *Open Controls* button present on the top right corner of the datathon portal.
+#. Use the **distance**, **xRotation**, and **yRotation** controls to align the slice as desired.
 #. Click on the **intersect** option.
 #. Click at the particular location on the intersected surface to create the fiducial point.
 #. Enter the annotation and click on confirm.
@@ -177,7 +177,9 @@ Follow the steps below:
    
    Created Fiducial Point: FP 1 
 
-
+6. Existing fiducial points on the intersection surface can be edited...
+#. Existing fiducial points can be deleted...
+#. Changes, additions, and deletions of fiducial points should be saved to PMR using the **commit** and **push** controls described above.
 
 
 
