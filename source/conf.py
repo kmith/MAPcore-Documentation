@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'MAPcore Datathon'
-copyright = '2019, Sonia Sharma'
+copyright = 'University of Auckland'
 author = 'Sonia Sharma'
 
 # The short X.Y version

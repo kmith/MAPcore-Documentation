@@ -190,22 +190,22 @@
 <p>This section explains the <em>Left</em>, <em>right</em> and the <em>interactive graphics</em> controls.</p>
 <div class="section" id="left-controls">
 <h3><a class="toc-backref" href="#contents">Left Controls</a><a class="headerlink" href="#left-controls" title="Permalink to this headline">¶</a></h3>
-<p>The <span class="guilabel">Open Controls</span> button at the top-left corner of the MAPcore Datathon portal elaborates different controls which helps to pinpoint any modifications made in the organ.</p>
+<p>The <span class="guilabel">Open Controls</span> button at the top-left corner of this demonstration elaborates different controls which help to edit the visualisation and configuration of the anatomical organ scaffold.</p>
 <p>Functionality of different <em>controls</em>:</p>
 <ul class="simple">
-<li><strong>View All</strong> - this control helps the organ to return to the original state from the enlarged position.</li>
-<li><strong>Read</strong> - provides an option to use the existing Physiome Model Repository(PMR) workspace.</li>
-<li><strong>Commit</strong> - helps to save the changes locally.</li>
-<li><strong>Push</strong> - helps to save the changes on the Physiome Model Repository(PMR).</li>
-<li><strong>Mesh Types</strong> - displays various kinds of organs/shapes but presently only heart related options are functional. The default organ which is showcased is “3d_heart1”.</li>
-<li><strong>Parameters</strong> - these are the numerical values which defines the various attributes of the organs/shapes. The values has been preset to provide a basic configuration of the organ.</li>
-<li><strong>Regions</strong> - helps viewing the varied parts of the organ/shape. Currently, this functionality works only for the heart. Hovering over the different regions highlights the particular selected area of the organ.</li>
+<li><strong>View All</strong> - this control ensures the entire organ scaffold is visible.</li>
+<li><strong>Read</strong> - provides an option to load a scaffold configuration and fiducial landmark locations from the Physiome Model Repository (PMR). See further details below.</li>
+<li><strong>Commit</strong> - save any changes to a temporary space.</li>
+<li><strong>Push</strong> - save committed changes to PMR.</li>
+<li><strong>Mesh Types</strong> - displays various kinds of organs/shapes supported by the underlying scaffolding tools, but presently only the heart related choices are functional. The default organ which is showcased is “3d_heart1”.</li>
+<li><strong>Parameters</strong> - the configuration defining the various attributes of the organ scaffold. The default values have been preset to provide a reasonable configuration of the organ.</li>
+<li><strong>Regions</strong> - the currently defined anatomical regions of the displayed organ scaffold. Currently, this functionality works only for the heart. Hovering over the different regions highlights the particular selected area of the organ; unchecking the region will cause the region surface to be hidden in the current scaffold visualisation.</li>
 </ul>
 <p>The <span class="guilabel">Close Controls</span> button closes the expanded controls panel.</p>
 </div>
 <div class="section" id="interactive-graphics-controls">
 <h3><a class="toc-backref" href="#contents">Interactive Graphics Controls</a><a class="headerlink" href="#interactive-graphics-controls" title="Permalink to this headline">¶</a></h3>
-<p>The table below describes the effect of different mouse buttons in manipulating the view:</p>
+<p>The table below describes the effect of different mouse buttons in manipulating the view.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="55%" />
@@ -231,22 +231,22 @@
 </div>
 <div class="section" id="right-controls">
 <h3><a class="toc-backref" href="#contents">Right Controls</a><a class="headerlink" href="#right-controls" title="Permalink to this headline">¶</a></h3>
-<p>On the top-right corner of the MAPcore Datathon portal, you will find another set of controls that supports rotating the ‘cutting plane’ along x-axis or y-axis , intersecting it as well as setting the distance of the cutting plane and so on. Click on the <span class="guilabel">Open Controls</span> button to work with various controls.</p>
-<p>These <em>controls</em> are explained below:</p>
+<p>On the top-right corner of this demonstration you will find another set of controls for controling a cutting plane that can be used to arbitrarily slide the organ scaffold in 3-d space. Click on the <span class="guilabel">Open Controls</span> button to work with the various controls if not currently displayed.</p>
+<p>These <em>controls</em> are explained below.</p>
 <ol class="arabic simple">
-<li><strong>Remove cuts</strong> - is used to delete the intersected surface created by the <em>intersect</em> control.</li>
-<li><strong>Distance</strong> - determines the distance of the cutting plane from the center of the organ/shape.</li>
+<li><strong>remove cuts</strong> - is used to delete the intersected surface created by the <em>intersect</em> control.</li>
+<li><strong>distance</strong> - determines the distance of the cutting plane from the center of the organ/shape.</li>
 <li><strong>xRotation</strong> - supports the rotation of the cutting plane along the x-axis.</li>
 <li><strong>yRotation</strong> - supports the rotation of the cutting plane along the y-axis.</li>
-<li><strong>Reverse</strong> - is the control which provides the ability to view the opposite side of the organ from the cutting plane.</li>
-<li><strong>Intersect</strong>- as the name suggest, creates an intersect surface between the organ and the cutting plane.</li>
+<li><strong>reverse</strong> - is the control which provides the ability to view the opposite side of the organ from the cutting plane.</li>
+<li><strong>intersect</strong>- as the name suggest, creates a surface at the intersection between the organ scaffold and the cutting plane.</li>
 </ol>
 <p>The <span class="guilabel">Close Controls</span> button closes the expanded controls panel.</p>
 </div>
 </div>
 <div class="section" id="working-with-the-physiome-model-repository">
 <h2><a class="toc-backref" href="#contents">Working with the Physiome Model Repository</a><a class="headerlink" href="#working-with-the-physiome-model-repository" title="Permalink to this headline">¶</a></h2>
-<p>The ‘Scaffold and Fiducial Marker’ module of the MAPcore Datathon portal supports using the existing Physiome Model Repository(PMR) workspace as well as saving the changes on the PMR. This can be achieved through the three controls (Read,Commit and Push) explained in the <a class="reference internal" href="#left-controls">Left Controls</a> section.</p>
+<p>The ‘Scaffold and Fiducial Marker’ module of the MAPcore Datathon portal supports using an existing Physiome Model Repository (PMR) workspace to load and save changes the user makes to the scaffold configuration and/or fiducial landmarks. This can be achieved through the three controls (Read, Commit and Push) explained in the <a class="reference internal" href="#left-controls">Left Controls</a> section.</p>
 <div class="section" id="read-control">
 <h3><a class="toc-backref" href="#contents">Read Control</a><a class="headerlink" href="#read-control" title="Permalink to this headline">¶</a></h3>
 <p>This control provides an option to use the existing Physiome Model Repository(PMR) workspace.</p>
@@ -302,7 +302,7 @@
 </div>
 <div class="section" id="push-control">
 <h3><a class="toc-backref" href="#contents">Push Control</a><a class="headerlink" href="#push-control" title="Permalink to this headline">¶</a></h3>
-<p>The <em>Push</em> control helps to save the changes on the Physiome Model Repository(PMR).</p>
+<p>The <em>Push</em> control helps to save the changes on to the PMR workspace.</p>
 <p>Steps:</p>
 <ol class="arabic simple">
 <li>Click on <em>Open Controls</em> button present on the top left corner of the datathon portal.</li>
@@ -321,7 +321,7 @@
 <p>Follow the steps below:</p>
 <ol class="arabic simple">
 <li>Click on <em>Open Controls</em> button present on the top right corner of the datathon portal.</li>
-<li>Go to the <strong>distance</strong> control and select the distance of the cutting plane from the center of the organ.</li>
+<li>Use the <strong>distance</strong>, <strong>xRotation</strong>, and <strong>yRotation</strong> controls to align the slice as desired.</li>
 <li>Click on the <strong>intersect</strong> option.</li>
 <li>Click at the particular location on the intersected surface to create the fiducial point.</li>
 <li>Enter the annotation and click on confirm.</li>
@@ -330,6 +330,11 @@
 <a class="reference internal image-reference" href="_images/creating_fiducial_point.png"><img alt="_images/creating_fiducial_point.png" src="_images/creating_fiducial_point.png" style="width: 91%;" /></a>
 <p class="caption"><span class="caption-text">Created Fiducial Point: FP 1</span></p>
 </div>
+<ol class="arabic simple" start="6">
+<li>Existing fiducial points on the intersection surface can be edited…</li>
+<li>Existing fiducial points can be deleted…</li>
+<li>Changes, additions, and deletions of fiducial points should be saved to PMR using the <strong>commit</strong> and <strong>push</strong> controls described above.</li>
+</ol>
 </div>
 </div>
 
@@ -351,7 +356,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Sonia Sharma
+        &copy; Copyright University of Auckland
 
     </p>
   </div>
