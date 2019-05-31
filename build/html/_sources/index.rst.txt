@@ -14,7 +14,7 @@ The MAPcore Datathon documentation teaches you how to use the platform being dev
    :caption: Table of Contents:
 
    ScaffoldFiducialMarker
-   
+   StellateGanglion
    
 
 
