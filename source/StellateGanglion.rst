@@ -53,7 +53,7 @@ Flatmaps Pane
 
 The flatmaps represents a high-level view of overall connectivity of the autonomic nervous system. This pane provides the below functionalities:
 
-1. |organs| icon provides an option to display or hide a selected organ/system.(is this correct terminology????? )
+1. |organs| icon provides an option to display or hide a selected organ/system.
 
 2. |zoom-in| icon lets you zoom-in  and |zoom-out| icon zoom-out the flatmap.
 
