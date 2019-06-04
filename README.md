@@ -1,3 +1,3 @@
-# MAPcoreDatathon
+# MAPcore Documentation
 
-Documentation for the MAPcore 2018 Datathon Demos of the NIH SPARC program.
+Documentation for the MAPcore Demos of the NIH SPARC program.
