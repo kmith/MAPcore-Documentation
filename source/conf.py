@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'MAPcore Datathon'
+project = 'MAPcore Documentation'
 copyright = 'University of Auckland'
 author = 'Sonia Sharma'
 
