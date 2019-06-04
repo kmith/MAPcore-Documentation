@@ -28,7 +28,7 @@ Steps to follow
 
 1. Click on the **Stellate Ganglion** on the Flatmaps window. 
 
-Add screenshot
+.. Add screenshot
 
 .. .. figure:: _images/snip
    :figwidth: 61%
@@ -37,11 +37,11 @@ Add screenshot
    
 2. A new window will pop-up i.e. Organs Viewer which displays the anatomical organ scaffold of the stellate. 
 
-add screenshot 
+.. add screenshot 
 
 3. Click on a particular sample data point to exhibit an electrode array recording electrical data on the new Chart/Blackfynn Exporter window.
 
-add screenshot
+.. add screenshot
 
 How to work with this interface?
 ********************************

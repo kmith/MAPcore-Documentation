@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-MAPcore Datathon Documentation
-==============================
+MAPcore Documentation
+=====================
 
-The MAPcore Datathon documentation teaches you how to use the platform being developed by the Stimulating Peripheral Activity to Relieve Conditions(SPARC)'s Map Synthesis Core(MAPcore).
+The MAPcore documentation teaches you how to use the web platform being developed by the Stimulating Peripheral Activity to Relieve Conditions(SPARC)'s Map Synthesis Core(MAPcore).
 
 
 .. toctree::
