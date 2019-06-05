@@ -23,10 +23,13 @@ Overview
    
 This document describes how to use the 'Stellate Ganglion' visualization. The demonstration for this module is available at https://mapcore-demo.org/current/data-portal/map/. 
 
-Steps to follow
-***************
 
-1. Click on the **Stellate Ganglion** on the Flatmaps window. 
+Step-by-step instructions 
+*************************
+
+Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.
+
+**Step 1**. Click on the **Stellate Ganglion** on the Flatmaps window. 
 
 .. Add screenshot
 
@@ -35,11 +38,11 @@ Steps to follow
    :width: 51%
    :align: center
    
-2. A new window will pop-up i.e. Organs Viewer which displays the anatomical organ scaffold of the stellate. 
+**Step 2**. A new window will pop-up i.e. Organs Viewer which displays the anatomical organ scaffold of the stellate. 
 
 .. add screenshot 
 
-3. Click on a particular sample data point to exhibit an electrode array recording electrical data on the new Chart/Blackfynn Exporter window.
+**Step 3**. Click on a particular sample data point to exhibit an electrode array recording electrical data on the new Chart/Blackfynn Exporter window.
 
 .. add screenshot
 
@@ -58,7 +61,6 @@ The flatmaps represents a high-level view of overall connectivity of the autonom
 2. |zoom-in| icon lets you zoom-in  and |zoom-out| icon zoom-out the flatmap.
 
 3. |resize| icon to resize this flatmap pane.
-
 
 
 
@@ -83,27 +85,13 @@ Organs Viewer is used to view the anatomical organ scaffold of the specific orga
 	
 .. note::
 
-   The organ scaffold visualisation can be manipulated by different `Interactive Graphics Controls`_ . 
+   The organ scaffold visualisation can be manipulated by different :doc:`InteractiveGraphicsControls`. 
 	
 Chart Pane
 ^^^^^^^^^^
 
 This pane exhibit an electrode array recording electrical data.
 
-Interactive Graphics Controls
------------------------------
-
-The table below describes the effect of different mouse buttons in manipulating the view.
-
-======================= ==============
-Mouse Button            Transformation
-======================= ==============
-Left                    Rotate
------------------------ --------------
-Middle 				    Zoom
------------------------ --------------
-Right 					Pan
-======================= ==============
 
 
 
