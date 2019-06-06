@@ -1,5 +1,11 @@
-Stellate Ganglion
-=================
+
+Mouse Brain Stem & Lungs
+========================
+Page heading will be changed later. This is just for reference.
+
+.. note:: 
+
+   **This is a generic template for all the MAPcore usercases for ISAN 2019. Please add or modify any information relating to your work.**
 
 .. |zoom-in| image:: /_images/flatmap_zoomIN.png
                :width: 2 em
@@ -21,44 +27,36 @@ Stellate Ganglion
 Overview
 ********
    
-This document describes how to use the 'Stellate Ganglion' visualization. The demonstration for this module is available at https://mapcore-demo.org/current/data-portal/map/. 
+This document describes how to ...........
 
+The demonstration for this module is available at URL (provide the link here).
 
 Step-by-step instructions 
 *************************
 
 Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.
 
-**Step 1**. Click on the **Stellate Ganglion** on the Flatmaps window. 
+Explain the steps to be followed by the end user on the web interface. 
 
-.. figure:: _images/sg_snip11.png
-   :figwidth: 55%
-   :width: 90%
+#. Step 1 ....
+
+Add screenshot
+
+.. .. figure:: _images/snip
+   :figwidth: 61%
+   :width: 51%
    :align: center
    
-**Step 2**. A new window will pop-up i.e. Organs Viewer which displays the anatomical organ scaffold of the stellate. 
+#. Step 2 ....
 
-.. figure:: _images/sg_snip2.png
-   :figwidth: 80%
-   :width: 95%
-   :align: center
+Add screenshot 
 
-**Step 3**. Click on a particular sample data point to exhibit an electrode array recording electrical data on the new Chart/Blackfynn Exporter window.
 
-.. figure:: _images/sg_snip4.png                                                                    
-   :figwidth: 80%
-   :width: 95%
-   :align: center
-   
-.. figure:: _images/sg_snip5.png
-   :figwidth: 80%
-   :width: 95%
-   :align: center
 
 How to work with this interface?
 ********************************
 
-This section explains how to work with different panes within this interface.
+This section explains.............
 
 Flatmaps Pane
 ^^^^^^^^^^^^^
@@ -71,7 +69,7 @@ The flatmaps represents a high-level view of overall connectivity of the autonom
 
 3. |resize| icon to resize this flatmap pane.
 
-
+more info............
 
 Organs Viewer Pane
 ^^^^^^^^^^^^^^^^^^
@@ -87,7 +85,7 @@ Organs Viewer is used to view the anatomical organ scaffold of the specific orga
 			
 			* :guilabel:`View All` control ensures the entire organ scaffold is visible.
 			
-			* :guilabel:`Visibilty Control` displays various sample data points on the Stellate. Clicking or hovering over the different data points shows the selected sample data point; unchecking the data point will cause the data point to be hidden in the current scaffold visualisation of the Stellate. 
+			  and so on ................
 		
 			
 	* The :guilabel:`Close Controls` button closes the expanded controls panel.
@@ -101,7 +99,7 @@ Chart Pane
 
 This pane exhibit an electrode array recording electrical data.
 
-
+more info..........
 
 
 

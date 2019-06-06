@@ -1,0 +1,58 @@
+
+SIM-Core link with dockerised OpenCOR
+=====================================
+Page heading will be changed later. This is just for reference.
+
+.. note:: 
+
+   **This is a generic template for all the MAPcore usercases for ISAN 2019. Please add or modify any information relating to your work.**
+   
+.. contents:: Contents: 
+   :local:
+   :depth: 2
+   :backlinks: top
+   
+Overview
+********
+   
+This document describes ..........
+
+.. add the demo url 
+The demonstration for this module is available at URL (provide the link here).
+
+Step-by-step instructions 
+*************************
+
+Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.
+
+Explain the steps to be followed by the end user on the web interface. 
+
+#. Step 1 ....
+
+Add screenshot
+
+.. .. figure:: _images/snip
+   :figwidth: 61%
+   :width: 51%
+   :align: center
+   
+#. Step 2 ....
+
+Add screenshot 
+
+How to work with this interface?
+********************************
+
+This section explains.............
+
+
+
+
+
+
+
+
+
+
+
+

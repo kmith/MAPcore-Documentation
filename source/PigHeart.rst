@@ -1,7 +1,23 @@
 
 Pig Heart
-========= 
+=========
 Page heading will be changed later. This is just for reference.
+
+.. note:: 
+
+   **This is a generic template for all the MAPcore usercases for ISAN 2019. Please add or modify any information relating to your work.**
+
+.. |zoom-in| image:: /_images/flatmap_zoomIN.png
+               :width: 2 em
+
+.. |zoom-out| image:: /_images/flatmap_zoomOUT.png
+               :width: 2 em
+			   
+.. |resize| image:: /_images/flatmap_resize.png
+               :width: 2 em
+			   
+.. |organs| image:: /_images/flatmap_organs.png
+               :width: 2 em
 			   
 .. contents:: Contents: 
    :local:
@@ -10,22 +26,20 @@ Page heading will be changed later. This is just for reference.
    
 Overview
 ********
-   
+
 This document describes how to ...........
 
 .. add the demo url 
 The demonstration for this module is available at URL (provide the link here).
-
-
 
 Step-by-step instructions 
 *************************
 
 Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.
 
-.. Explain the steps to be followed by the end user on the web interface. 
+Explain the steps to be followed by the end user on the web interface. 
 
-#. Step 1
+#. Step 1 ....
 
 Add screenshot
 
@@ -34,7 +48,7 @@ Add screenshot
    :width: 51%
    :align: center
    
-#. Step 2
+#. Step 2 ....
 
 Add screenshot 
 
@@ -45,12 +59,16 @@ How to work with this interface?
 
 This section explains.............
 
-**Add/Modify information relating to your work**.
-
 Flatmaps Pane
 ^^^^^^^^^^^^^
 
-The flatmaps represents a high-level view of overall connectivity of the autonomic nervous system.
+The flatmaps represents a high-level view of overall connectivity of the autonomic nervous system. This pane provides the below functionalities:
+
+1. |organs| icon provides an option to display or hide a selected organs systems.
+
+2. |zoom-in| icon lets you zoom-in  and |zoom-out| icon zoom-out the flatmap.
+
+3. |resize| icon to resize this flatmap pane.
 
 more info............
 

@@ -16,6 +16,14 @@ The MAPcore documentation teaches you how to use the web platform being develope
    ScaffoldFiducialMarker
    StellateGanglion
    PigHeart
+   MouseHeart
+   RatHeart
+   MouseBrainStemLungs
+   RatStomach
+   RatBladder
+   RatSCG
+   MouseColon
+   UC10
 ..   InteractiveGraphicsControls
 
 
