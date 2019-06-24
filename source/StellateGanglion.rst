@@ -55,13 +55,13 @@ Follow these step-by-step instructions to familiarise yourself with the flow of 
    :width: 95%
    :align: center
 
-How to work with this interface?
-********************************
+Working with the interface
+**************************
 
-This section explains how to work with different panes within this interface.
+This section explains how to use more specific features of the interface.
 
-Flatmaps Pane
-^^^^^^^^^^^^^
+Flatmaps Viewer
+^^^^^^^^^^^^^^^
 
 The flatmaps represents a high-level view of overall connectivity of the autonomic nervous system. This pane provides the below functionalities:
 
@@ -73,35 +73,49 @@ The flatmaps represents a high-level view of overall connectivity of the autonom
 
 
 
-Organs Viewer Pane
-^^^^^^^^^^^^^^^^^^
+Organs Viewer
+^^^^^^^^^^^^^ 
 
 Organs Viewer is used to view the anatomical organ scaffold of the specific organ selected on the Flatmaps. 
 
 	
-	* The :guilabel:`Open Controls` button at the top-left corner of this demonstration elaborates different controls which help to edit the visualisation and configuration of the stellate.
+* The :guilabel:`Open Controls` button at the top-left corner of this demonstration elaborates different controls which help to edit the visualisation and configuration of the stellate.
 	
-			* :guilabel:`Background` control provides an option to change the background color. 
+	* :guilabel:`Background` control - provides an option to change the background color. 
 	
-			* :guilabel:`Reset View` control restore the organ scaffold to the default state.
+	* :guilabel:`Reset View` control - restore the organ scaffold to the default state.
 			
-			* :guilabel:`View All` control ensures the entire organ scaffold is visible.
+	* :guilabel:`View All` control - ensures the entire organ scaffold is visible.
 			
-			* :guilabel:`Visibilty Control` displays various sample data points on the Stellate. Clicking or hovering over the different data points shows the selected sample data point; unchecking the data point will cause the data point to be hidden in the current scaffold visualisation of the Stellate. 
-		
+	* :guilabel:`Visibilty Control` displays various sample data points on the Stellate. Clicking or hovering over the different data points shows the selected sample data point; unchecking the data point will cause the data point to be hidden in the current scaffold visualisation of the Stellate. 
 			
-	* The :guilabel:`Close Controls` button closes the expanded controls panel.
+* The :guilabel:`Close Controls` button closes the expanded controls panel.
 	
 .. note::
 
-   The organ scaffold visualisation can be manipulated by different :doc:`InteractiveGraphicsControls`. 
+   The organ scaffold visualisation can be manipulated by the following interactive graphics controls. 
+
+    ======================= ==============
+    Mouse Button            Transformation
+    ======================= ==============
+    Left                    Rotate
+    ----------------------- --------------
+    Middle 				          Zoom
+    ----------------------- --------------
+    Right 					        Pan
+    ======================= ==============
 	
 Chart Pane
 ^^^^^^^^^^
 
-This pane exhibit an electrode array recording electrical data.
+This viewer is used to view the *Electrocardiograph* data recorded with the experiment video.
 
+* Refine the view by draging over a region of interest.
 
+.. figure:: _images/plot_result.png
+   :figwidth: 80%
+   :width: 95%
+   :align: center
 
 
 
