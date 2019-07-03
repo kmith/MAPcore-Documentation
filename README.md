@@ -1,4 +1,4 @@
-# MAPcore Documentation
+# Mapping gastric neurite data
 
 Documentation for the MAPcore Demonstrations of the NIH SPARC program.
 
